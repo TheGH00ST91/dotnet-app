@@ -1,0 +1,68 @@
+## .NET Core
+# Ignore build output folders
+bin/
+obj/
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# User-specific files (Windows)
+# Windows Installer files
+Thumbs.db
+Desktop.ini
+
+# Windows Installer files in obj and bin folders
+# .NET Core Build files
+# .NET Core file cache for build performance
+# Generated files
+# ASP.NET Temporary files
+# Xamarin Studio build files
+# JetBrains Rider files
+# Mac-specific .NET Core build files
+# Windows Installer files
+# Windows Installer file cache
+# Windows Installer artifacts
+
+# ASP.NET Files
+wwwroot/
+
+# Temporary ASP.NET files
+# project.lock.json is no longer used by .NET Core 2.0+ (but for older versions, use this)
+project.lock.json
+project.fragment.lock.json
+
+# User-specific files
+# Microsoft Visual Studio for Mac settings folder
+.idea/
+
+# .NET Core Visual Studio
+.vs2019/
+.vs2017/
+
+# Ignore NuGet package directories and cache
+.nuget/
+# Ignore the .nupkg files that get produced by NuGet package building
+*.nupkg
+
+# Ignore the packages folder (produced by nuget restore)
+packages/
+
+# Ignore logs and crash reports
+log/
+crash/
+
+# Ignore dotnet test results
+TestResults/
+
+# Local db files (e.g., for SQLite or local database cache files)
+*.sqlite
+
+# Windows Installer generated files (for Windows-specific apps)
+*.cab
+*.msi
+*.exe
+
+# macOS directory and file types
+.DS_Store
